@@ -1,0 +1,303 @@
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+/* header size & color */
+#header{ 
+    position: fixed;
+    background:rgba(0,0,0,0.6);
+    margin-bottom:10px;
+    height: 120px;
+    width: 100%;
+    padding: 15px;
+}
+
+/* special effects btn size & clor */
+#kda_btn{
+    width: 200px;
+    height: 70px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    background: #cfc0dd;
+    top:50%;
+    left:50%;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* special effects btn size & clor */
+#kda_btn:before{
+    color: white;
+    content:'KDA ?';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    text-shadow: 5px 2px 10px #694989;
+    transition: all 0.5s;
+}
+/* special effects btn  */
+#kda_btn:hover:before{
+    top:-30px;
+}
+/* special effects btn size & clor */
+#kda_btn:after{
+    color: white;
+    font-family: 'hehe';
+    content:'AHRI';
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 34px;
+    transform: translate(-50%, -50%);
+    top:140%;
+    text-shadow: 0px 0px 10px #ff4c80;
+    transition: all 0.5s;
+}
+/* special effects btn  */
+#kda_btn:hover:after{
+  top: 50%;
+}
+/* logo img position */
+#logo img{
+    
+    position:absolute;
+    left: 90%;
+    top: 10%;
+}
+/* s_sidebar in here box the size and background */
+#right-sidebar{
+    width:500px;
+    height:600px;
+    left: 70%;
+    top:14%;
+    position: absolute;
+    text-align:center;
+    line-height:10%;
+　  font-size:15px;
+　  color:#ffffff;
+　  font-weight:bold;
+　  background-color:#cecece;
+    float: right;
+}
+
+/* Slideshow img box size */
+#content{
+  width:80%;
+　height:30%;
+　text-align:center;
+　line-height:280px;
+　font-size:15px;
+　color:#f9c81e;
+　font-weight:bold;
+　background-color:#fffaf3;
+
+}
+
+
+/* search box size & position */
+.search-box{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-50%,-50%); 
+    padding: 10px;
+    height: 40px;
+    background: #2f3640;
+    border-radius: 40px;
+}
+
+/* search box special effects */
+.search-box:hover > .search-text {
+    width: 240px;
+    padding: 0 6px;
+}
+
+/* search box special effects */
+.search-box:hover > .search-btn {
+    background: white;
+    color: black;
+
+}
+
+/* search box special effects */
+.search-btn{
+    color:#c3d5d6;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    display: flex;
+    background:cadetblue;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+}
+
+/* search box size */
+.search-btn > i {
+    font-size: 30px;
+}
+
+/* search box text color & size */
+.search-text{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+  cursor: default;
+}
+
+/* timer position & background */ 
+#timer {
+    position: absolute;
+    right:50px;
+    border-style: groove;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    
+}
+
+/* bottom box size % background color  */
+#bottom{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow:hidden;
+    clear: both;
+    background-color: black;
+}
+
+/* color box position & background */
+.box{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+/* color box position & background */
+.box a{
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* img size */
+.p{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+/* menu hero */
+/* hero icon size */
+.demo_hero {
+    border-radius: 60%;
+    height: 75px;
+    padding: 1px;
+    background-color: aqua;
+    border-style:groove;
+    margin-bottom:-5px;
+}
+/* hero iconbtn background */ 
+.iconbg {
+    border-style:none;
+    margin-bottom:-5px;
+    background: transparent;
+    text-align: center;
+    height: 20px;
+    width: 60px;;
+    opacity: 0.2;
+    color: white;
+    padding:1px;
+    
+}
+
+/* hero display img box size */
+.heroimg  {
+    
+    width: 800px;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    display: none;
+    
+}
+/* hero display img size */
+.heroimg img {
+    right: 30%;
+    vertical-align : middle;
+    background:transparent;
+    border-style: groove;
+    padding: 10px;
+    box-shadow: 1px 3px 3px #fff;
+}
+
+/* hero6 icon size */
+.demo_hero6 {
+  border-radius: 60%;
+    height: 75px;
+    padding: 1px;
+    background-color:#e48f7a; 
+    border-style:groove;
+    margin-bottom:-5px;  
+}
+
+/* input img button */
+#img_input{
+    position:fixed;
+    bottom: 7%;
+    left: 18%;
+    cursor: pointer;
+}
+/* goo to nextpage poosition & size */
+#nextPage{
+    position:relative;
+    left: 42%;
+    bottom: 25px;
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0 0 10px;
+    cursor:  pointer;
+}
+
+/* menubar size & position */
+#menu{
+    color: white;
+    left: 40%;
+    position: relative;
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+}
+
+
+

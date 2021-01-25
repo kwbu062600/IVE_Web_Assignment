@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThirdPage</title>
+    <link rel="stylesheet" href="../Css/third.css" type="text/css">
+    <script type="text/javascript" src="../Js/third.js"></script>
+</head>
+<body>
+  <div id="topMenuBar">
+       <ul>
+           <!--go back to previous page -->
+           <li><a href="Main.html" >返回遊戲</a></li>
+           <!--onclick can show the content  -->
+           <li onclick="showGuide();showHeroInfo()";>遊戲攻略</li>
+           <!--change onclick can show the video -->
+           <li onclick="showVideo()">宣傳影片</li>
+           
+          </ul>
+    </div>
+    
+    
+    <div id=container> 
+        <div id="gameGuide">
+            <!--onclick the hero can show to people -->
+            <div>推介陣營:<b id="comment"> 動物園</b>
+            </div>
+           <div class=image>
+                <span><img src="../img/h1.png" alt="" onclick="showHeroInfo(1)"></span>
+                <span><img src="../img/h2.png" alt="" onclick="showHeroInfo(2)"></span>
+                <span><img src="../img/h3.png" alt="" onclick="showHeroInfo(3)"></span>
+                <span><img src="../img/h4.png" alt="" onclick="showHeroInfo(4)"></span>
+                <span><img src="../img/h5.png" alt="" onclick="showHeroInfo(5)"></span>
+           </div>
+           
+           <div id="content">
+               本次推薦的陣營是 <u>布里茨</u> <u>安妮</u> <u>埃爾文</u> <u>魔鬥凱薩</u> <u>約瑞科</u> 這些全部都是經過精挑細選哦。因此建議大家使用這強強強的陣營同時，請慎重選擇你的隊友們。因為一但使用，非死即傷，不是我們亡就是對方主堡被撞到體無完膚。廢話不多說，立即入正題。
+               這陣營的需求上面已經跟大家闡述了。那我們應該怎樣去安排好哪隻英雄去哪條路呢?
+               <br>
+               <br>
+                約瑞科:上路
+                <br>
+                安妮:中路
+                <br>
+                魔鬥凱薩:下路
+                <br>
+                布里茨:輔助
+                <br>
+                埃爾文:打野
+                <br><br>
+                
+                不用有疑問。約瑞科這隻英雄的存在就是推塔、推塔加推塔。別在想甚麼輸出跟人家打，一個字農 農到你6等了 對面一回家你就開大開Q敲他的塔。不用太久，他肯定堅持不了，這時候在20分鐘前幫JG食掉預視者。<br><br>
+                安妮最好的定位就是中路了，先上6把你的熊熊召喚出來，一個法師就能做出等於兩隻英雄的力量，多強~ 還有安妮前中後都能用，更是不怕對面呢，能多殺幾個人就殺幾個，等待就是時機! <br><br>
+                
+                你會在抱怨，甚麼啊，下路都沒遠程的傷害，被對面poke死了，遊戲還怎麼打。
+                魔鬥跟布里茨是最佳的配合，因為魔鬥最強的三連擊就是要配合布里茨最無恥的Q拉加CC飛拳，打出最高值的傷害。換血?字典沒有這個詞彙。魔鬥一旦出了吸血裝一個技，回了，對血弱弱的你去個野區刷一刷7鳥丟你回血技，滿了。又回到戰場上打。但他們的前期的確太弱了，你只能等上了6等去跟jg吃個龍。如果運氣好，你遇上火龍，你就能逆天。下路開一波。<br><br>
+                這時候上中下野都要注意了，這是關鍵一擊，上路立馬傳送，中路要跟去下路，全集中丟出你家中的好寶寶。一龍一預視一黛西一熊熊加上你之前準備的加攻藥水，速攻了。這時機要超準。<br><br>
+                失敗了不要緊，因為儘管失敗了，按照幾隻大型生物攻擊的速度，都已經破了高地了。這時候，你需要的是重整你的隊型。回家補補裝，斬殺對面吧~! <br>
+                
+           </div>
+           
+           <div class="hero h1">
+                    <br><br>
+                    <div>
+                        <img src="../img/h1_01.png" alt="">
+                        <span>
+                            法力屏障 （被動）<br><br>當布里茨的生命低於 20% 最大生命時會自動開啟法力屏障，可以吸收最多 50 % 當前魔力的傷害，持續 10 秒或直到護盾破裂。冷卻時間 90 秒
+                        </span>
+                    </div><br><br><br><br><br>
+                    
+                    <div>
+                        <img src="../img/h1_02.png" alt="">
+                        <span>
+                            火箭抓取 （Q）<br><br>布里茨對目標使用火箭抓取，擊中時會眩暈目標，同時造成 <br>80/135/190/245/300（+1.0 魔法攻擊）點魔法傷害，並將目標抓至面前。
+                            <ul>
+                                <li>消耗：100 魔力</li>
+                                <li>冷卻：20/19/18/17/16 秒</li>
+                                <li>射程：925</li>
+                            </ul>
+                        </span>
+                    </div><br><br><br><br><br>
+                    
+                   <div>
+                        <img src="../img/h1_03.png" alt="">
+                        <span>
+                            過載運轉 （W）<br><br>布里茨使用超級電池充電，提升 70/75/80/85/90% 跑速和 30/38/46/54/62% 攻速，持續 5 秒。增加跑速效果會在期間內遞減至 10%，且在效果結束後，布里茨會降低 30% 跑速，持續 1.5 秒。
+                            <ul>
+                                <li>消耗：75 魔力</li>
+                                <li>冷卻：15 秒</li>
+                            </ul>
+                        </span>
+                    </div><br><br><br><br><br>
+                    
+                   <div>
+                       <img src="../img/h1_04.png" alt="">
+                       <span>
+                           充能一擊 （E）<br><br>布里茨為機械手臂充能，5 秒內的下一次普攻附加（+1.0 物理攻擊）點物理傷害，並擊飛目標，持續 1 秒。<br>
+                           此技能會重置普攻。
+                           <ul>
+                               <li>消耗：25 魔力</li>
+                               <li>冷卻：9/8/7/6/5 秒</li>
+                           </ul>
+                       </span>
+                    </div><br><br><br><br><br>
+                    
+                    <div>
+                       <img src="../img/h1_05.png" alt="">
+                       <span>
+                            靜電力場 （R）<br><br>
+                            被動：布里茨每 2.5 秒會釋放一道電弧，對附近隨機一個敵人造成 100/200/300（+0.25 魔法攻擊）點魔法傷害。被動效果在此技能冷卻時無法使用。<br><br>
+                            主動：對周圍敵人造成 250/375/500（+1.0 魔法攻擊）點魔法傷害，並沉默 0.5 秒。
+                            <ul>
+                                <li>消耗：100 魔力</li>
+                                <li>冷卻：60/40/20 秒</li>
+                                <li>射程：300</li>
+                            </ul>
+                       </span>
+                    </div><br><br><br><br><br>
+
+           </div>
+           
+           <div class="hero h2">
+               <div><br><br>
+                   <img src="../img/h2_01.png" alt="">
+                   <span>
+                       嗜火 （被動）<br><br>安妮每施放 4 次技能後，他的下一個技能會暈眩所有擊中的敵人，持續<br>   1.25/1.5/1.75 秒。
+                   </span>
+                </div><br><br><br><br><br>
+               <div>
+                   <img src="../img/h2_02.png" alt="">
+                   <span>
+                       瓦解怒焰 （Q）<br>安妮向目標施放巨大的魔法火球，造成 80/115/150/185/220（+0.8 魔法攻擊）點魔法傷害。<br><br>
+
+                        若目標死於此技能，則安妮恢復施放此技能所消耗的魔力，並減少一半此技能的冷卻時間。
+                        <ul>
+                            <li>消耗：60/65/70/75/80 魔力</li>
+                            <li>冷卻：4 秒</li>
+                            <li>射程：625</li>
+                        </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <div>
+                   <img src="../img/h2_03.png" alt="">
+                   <span>
+                       烈焰衝擊 （W）<br><br>
+                        安妮施放一道烈焰，對範圍內的敵人造成 70/115/160/205/250（+0.84 魔法攻擊）<br>點魔法傷害。
+                        <ul>
+                            <li>消耗：70/80/90/100/110 魔力</li>
+                            <li>冷卻：8 秒</li>
+                            <li>射程：600</li>
+                        </ul>
+                   </span>
+               </div>
+               <div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+                   <img src="../img/h2_04.png" alt="">
+                   <span>
+                       熔炎護盾 （E）<br><br>
+                        施放一個熔炎護盾保護安妮與泰貝爾，持續 2.5 秒。期間內，安妮減少 16/22/28/34/40% 所受的傷害，且攻擊他們的敵人每次會受到 30/45/60/75/90（+0.3 魔法攻擊）點魔法傷害。
+                        <ul>
+                            <li>消耗：20 魔力</li>
+                            <li>冷卻：10 秒</li>
+                        </ul>
+                   </span>
+               </div>
+               <div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+                   <img src="../img/h2_05.png" alt="">
+                   <span>
+                       召喚泰貝爾 （R）<br><br>
+                        安妮召喚巨熊泰貝爾，對目標區域內的敵人造成 150/275/400（+0.65 魔法攻擊）點魔法傷害。泰貝爾可以存活 45 秒，並燃燒周圍的敵人，每秒造成 10/15/20（+0.1 魔法攻擊）點魔法傷害。
+                        <ul>
+                            <li>消耗：100 魔力</li>
+                            <li>冷卻：120/100/80 秒</li>
+                            <li>射程：600</li>
+                        </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+                        
+           </div>
+           
+           <div class="hero h3">
+               <div><br><br>
+                   <img src="../img/h3_01.png" alt="">
+                   <span>
+                       森林之友 （被動 <br><br>
+                    埃爾文無法攻擊非史詩級野怪，同時牠們也不會攻擊埃爾文。埃爾文可以創造隨著時間成長的魔法小花叢或野區樹叢。當小花叢完全長大時，埃爾文可以釋放野怪並獲得金錢和經驗值。上 5 等以後，他還能和隊友們共享樹精長老和遠古魔像的增益效果。
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br><br><br>
+               <div>
+                   <img src="../img/h3_02.png" alt="">
+                   <span>
+                       盤根束縛 （Q）<br><br>
+                    埃爾文拋出扭曲的樹根，對第一個擊中的敵人造成 80/125/170/215/260（+0.7 魔法攻擊）點魔法傷害，並束縛 1.2/1.4/1.6/1.8/2 秒。<br>
+
+                    埃爾文與其友軍攻擊被束縛的目標時，會自動衝刺進自身最大的攻擊範圍內。埃爾文自己重啟技能也可以衝進攻擊範圍內
+                    <ul>
+                        <li>消耗：60 魔力</li>
+                        <li>冷卻：14/13/12/11/10 秒</li>
+                        <li>射程：1075</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br><br><br>
+               <div>
+                   <img src="../img/h3_03.png" alt="">
+                   <span>
+                       茂林春生 （W）<br><br>
+                    被動：當埃爾文躲在草叢內時，他的普攻會附加 20/30/40/50/60（+0.3 魔法攻擊）點魔法傷害，並增加 325 攻擊距離。此效果在埃爾文離開草叢後，還會持續 3 秒。<br>
+
+                    主動：埃爾文創造一個持續 30 秒的小樹叢，並獲得樹叢內及周圍區域的視野 3 秒。若在牆邊或其他草叢旁創造小樹叢，其創造出來的樹叢範圍會比較大一點。<br>
+
+                    埃爾文每 40/36/32/28/24 秒會獲得一個樹叢，最多可保留 3 個。
+                    <ul>
+                        <li>消耗：30 魔力</li>
+                        <li>射程：1000</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br><br>
+               <div>
+                   <img src="../img/h3_04.png" alt="">
+                   <span>
+                       守護種子 （E）<br><br>
+                    埃爾文給予隊友、自身或是黛西一個護盾，最多可以吸收 60/80/100/120/140（+0.8 魔法攻擊）點傷害，持續最多 2 秒。<br>
+
+                    之後護盾爆炸，對周遭敵人造成 60/90/120/150/180（+0.8 魔法攻擊）點魔法傷害，並降低 40/45/50/55/60% 跑速，持續 2 秒。
+                    <ul>
+                        <li>消耗：70 魔力</li>
+                        <li>冷卻：12/11/10/9/8 秒</li>
+                        <li>射程：750</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br><br><br>
+               <div>
+                   <img src="../img/h3_05.png" alt="">
+                   <span>
+                       黛西！ （R）<br><br>
+                    埃爾文召喚出他的石像哨兵好友 ─ 黛西 ─ 來共同作戰。黛西會依據埃爾文的魔法攻擊增加傷害及防禦力，留在場上最多 60 秒。<br>
+
+                    若黛西攻擊同一目標 3 次，她接下來的攻擊會發出一陣衝擊波，擊飛路徑上所有敵人 1 秒。<br>
+
+                    按 R 或「Alt + 右鍵」可以控制黛西。
+                    <ul>
+                        <li>消耗：100 魔力</li>
+                        <li>冷卻：160/140/120 秒</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br><br><br>
+               
+           </div>
+           
+           <div class="hero h4">
+               <div><br><br>
+                   <img src="../img/h4_01.png" alt="">
+                   <span>
+                       鐵人 （被動）<br><br>
+                    魔鬥凱薩用他的技能造成傷害後，一定百分比的傷害值將轉化為一個臨時護盾，吸收傷害。
+                   </span>
+               </div><br><br><br><br><br><br><br>
+               <div>
+                   <img src="../img/h4_02.png" alt="">
+                   <span>
+                       鏟擊之錘 （Q）<br><br>
+                    魔鬥凱薩接下來的三次攻擊獲得增強。前兩次攻擊造成 10/20/30/40/50（+0.5/0.6/0.7/0.8/0.9 額外物理攻擊）（+0.6 魔法攻擊）額外魔法傷害。第三次攻擊造成前一次攻擊 2 倍額外傷害，最多達到 20/40/60/80/100（+1.0/1.2/1.4/1.6/1.8 額外物理攻擊）（+1.2 魔法攻擊）。
+                    <ul>
+                        <li>消耗：20/23/26/29/32 生命</li>
+                        <li>冷卻：10/8.5/7/5.5/4 秒</li>
+                    </ul>
+                   </span>
+               </div><br><br><br><br><br><br><br>
+               <div>
+                   <img src="../img/h4_03.png" alt="">
+                   <span>
+                       憂傷蔓延 （W）<br><br>
+                    被動： 魔鬥凱薩在友軍旁擊殺小兵時，獲得額外經驗。<br>
+
+                    主動： 鎖定一名友方與魔鬥凱薩連結：魔鬥凱薩與目標往彼此靠近時獲得 75 跑速。當兩人接觸時，在 4 秒內對周圍敵方造成 140/180/220/260/300（+0.6 魔法攻擊）魔法傷害。重新啟動技能來立刻對雙方周圍的敵方偷取 50/85/120/155/190（+0.3 魔法攻擊） 生命 （對最多2 個士兵造成 25% 治療；此為魔法傷害）。
+                    <ul>
+                        <li>消耗：25/35/45/55/65 生命</li>
+                        <li>冷卻：12/11/10/9/8 秒</li>
+                        <li>射程：1000</li>
+                    </ul>
+                   </span>
+               </div><br><br><br><br><br><br><br>
+               <div>
+                   <img src="../img/h4_04.png" alt="">
+                   <span>
+                       毀滅虹吸 （E）<br><br>
+                    魔鬥凱薩對面前錐形範圍造成 35/65/95/125/155（+0.6 物理攻擊）（+0.6 魔法攻擊）魔法傷害。<br>
+
+                    每擊中一個英雄，他獲得最多 15/17.5/20/22.5/25% 的護盾。
+                    <ul>
+                        <li>消耗：24/36/48/60/72 生命</li>
+                        <li>冷卻：6/5.75/5.5/5.25/5 秒</li>
+                        <li>射程：675</li>
+                    </ul>
+                   </span>
+               </div><br><br><br><br><br><br><br>
+               <div>
+                   <img src="../img/h4_05.png" alt="">
+                   <span>
+                      死亡之子 （R）<br><br>
+                    被動－巨龍之力： 傷害巨龍時巨龍會受到 詛咒，持續 10 秒。<br>
+
+                    主動：詛咒 目標英雄並偷取其 25/30/35%（+4% / 每 100 魔法攻擊）最大生命（施放時立刻偷取 25%，10 秒內偷取另外 75%；此為魔法傷害）。<br>
+
+                    詛咒效應：受到詛咒的單位被魔鬥凱薩的隊伍擊殺時，其靈魂會追隨魔鬥凱薩，持續 45/60/75 秒。魔鬥凱薩將獲得該名英雄 30% 魔法攻擊和 25% 額外生命。可以利用 Alt 鍵搭配滑鼠右鍵或再次點擊技能來控制靈魂。 
+                    <ul>
+                        <li>冷卻：120/105/90 秒</li>
+                        <li>射程：850</li>
+                    </ul>
+                   </span>
+               </div><br><br><br><br><br><br><br>
+           </div>
+           
+           <div class="hero h5">
+               <div><br><br>
+                   <img src="../img/h5_01.png" alt="">
+                   <span>
+                       亡魂牧人 （被動）<br><br>
+                    約瑞科最多一次能使喚 4 個霧行者。霧行者若離約瑞科或是黯霧女士太遠便會死亡。<br>
+
+                    每 12/8/4 個非英雄敵人在約瑞科附近死亡時，會產生墳墓；而任何敵方英雄在約瑞科附近死亡都會創造出墳墓。<br>
+
+                    若霧行者以及黯霧女士正跟著約瑞科的話，會隨著約瑞科的傳送一起移動。
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <div>
+                   <img src="../img/h5_02.png" alt="">
+                   <span>
+                       臨終葬儀 （Q）<br><br>
+                    約瑞科 6 秒內的下次普攻將會附加 30/55/80/105/130（+0.4 物理攻擊）點物理傷害，並回復 12～82 點生命。在約瑞科生命低於一半時，回血效果會加倍。<br>
+
+                    若此技能擊殺了目標，約瑞科便會製造出一個墳墓；若約瑞科身邊有至少 3 個墳墓，且此技能處於冷卻時，約瑞科能夠改為使用「逝者蘇生」。<br>
+
+                    逝者蘇生：約瑞科從附近的墳墓中召喚出霧行者。
+                    <ul>
+                        <li>消耗：25 魔力</li>
+                        <li>冷卻：7/6.5/6/5.5/5 秒</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <div>
+                   <img src="../img/h5_03.png" alt="">
+                   <span>
+                       黯影屍陣 （W）<br><br>
+                    約瑞科召喚出一圈可以被摧毀的屍牆圍住目標區域，持續最多 4 秒鐘。<br>
+
+                    黯影屍陣可以被敵方的普攻摧毀，最多承受 2/2/3/3/4 次攻擊。
+                    <ul>
+                        <li>消耗：70 魔力</li>
+                        <li>冷卻：20/18/16/14/12 秒</li>
+                        <li>射程：600</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <div>
+                   <img src="../img/h5_04.png" alt="">
+                   <span>
+                       悲鳴瘴霧 （E）<br><br>
+                    約瑞科投擲一團黯霧，對所有擊中的敵人造成相當於 15% 目標當前生命的魔法傷害，最少造成 70/105/140/175/210（+0.7 魔法攻擊）點魔法傷害。<br>
+
+                    此外，降低目標 30% 跑速，持續 2 秒，並標記擊中的野怪或敵方英雄 4 秒。約瑞科及霧行者朝標記敵人前進時，會增加 20% 跑速，且霧行者會直接跳到標記目標身上。
+                    <ul>
+                        <li>消耗：50/55/60/65/70 魔力</li>
+                        <li>冷卻：12/11/10/9/8 秒</li>
+                        <li>射程：750</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <div>
+                   <img src="../img/h5_05.png" alt="">
+                   <span>
+                       荒島輓歌 （R）<br><br>
+                    約瑞科召喚黯霧女士，她會帶著 2/3/4 名霧行者一起出現。黯霧女士擁有 700/1500/4000（+30% 最大生命）點生命，每秒可對目標造成 10/20/40（+0.5 物理攻擊）點魔法傷害。當有敵人在黯霧女士附近死亡時，他們將會變成霧行者。<br>
+
+                    約瑞科無法控制黯霧女士。若約瑞科攻擊黯霧女士鎖定的目標時，會附加相當於 5/7.5/10% 目標最大生命的魔法傷害。此效果無法在 2 秒內再次觸發，對建築物也無效。
+                    <ul>
+                        <li>消耗：100 魔力</li>
+                        <li>冷卻：160/130/100 秒</li>
+                        <li>射程：900</li>
+                    </ul>
+                   </span>
+               </div><br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+           </div>
+           
+           <!--onclick to close content -->
+           <p align="center" id="close" onclick="closeGuide()">按我關閉</p>
+           
+        </div>
+            <!--add the video -->
+            <div class="video" id="video">
+            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X9HtF_CUuPQ?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="youtube">
+
+                </iframe>
+            </div>
+            
+    </div>
+    
+    
+    <div id="footer">
+        <!--onclick the button logout  -->
+       <input type="button" value="Logout" id="logout" onclick="logout()">
+        <span id="warning"><i>請注意遊戲時間，避免沉迷。 
+本遊戲服務區域包含對<br>所有熱愛遊戲粉絲開放~仲等?立即開始遊戲對戰啦~!<br></i></span>
+       
+       <span id="fifteenPlus"><img src="../img/15+logo.png" alt="15+" width="50px;"></span>
+       
+       <!--add facebook -->
+        <div id="FaceBook">
+            <a href="https://www.facebook.com/LeagueOfLegendsTaiwan/" target="_blank"><img src="../img/facebook.png" alt="facebook" id="facebook"></a>
+            <span id=facebookSapn><i>Facebook</i>專頁第一<br>時間獲得最新活動<br>消息~按讚~按讚~</span>
+        </div>
+        <!--add ig -->
+        <div id="InstaGram">
+            <a href="https://www.instagram.com/lol.tw/?hl=zh-tw" target="_blank"><img src="../img/instagram.png" alt="instagram" id="instagram"></a>
+            <span id=instagramSpan><i>Instagram</i>會不斷提供每期嘅最新版本<br>快啲<i>click</i>消息入黎follow啦~d(`･∀･)b  </span>
+        </div>
+    </div>
+    <embed src="../mp3/song3.mp3" autostart="1" loop="1" volume="0" hidden="true"> 
+                        
+</body>
+</html>

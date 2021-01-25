@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   
+    <meta charset="UTF-8">
+    <title>SearchKDA</title>
+    <link rel="stylesheet" type ="text/css" href="../Css/search.css">
+    <script type="text/javascript" src="../Js/search.js"></script>
+  </head>
+    <body>
+       <!--add imgbtn   -->
+        <div id ="header">
+            <span class="kdaimgbtn">
+            <img class="kdaimg P1" src="../img/kda_3.png" alt="evelynn" onclick="show_kdaimg(1)">
+            </span>
+            <span class="kdaimgbtn">
+            <img class="kdaimg P2"  src="../img/kda_5.png" alt="kaisa" onclick="show_kdaimg(2)">
+            </span>
+            <span class="kdaimgbtn">
+            <img class="kdaimg P3" src="../img/kda_2.png" alt="ahri" onclick="show_kdaimg(3)">
+            </span>
+            <span class="kdaimgbtn">
+            <img class="kdaimg P4" src="../img/kda_4.png" alt="akali" onclick="show_kdaimg(4)">
+            </span>
+            <!-- go back to page btn  -->
+            <span class="gobackbtn" onclick="nextPage()"></span>
+        </div>
+        
+           <div id="kda_content">
+            <!--Slideshow img -->
+                     <span class="kda_img img1">
+                         <img src="../img/ms-4.JPG" onclick="close_img()" >
+               </span>
+                         <span class="kda_img img2">
+                             <img src="../img/ms-3.JPG" onclick="close_img()">
+               </span>
+                        <span class="kda_img img3">
+                         <img src="../img/ms-1.JPG" onclick="close_img()" >
+               </span>
+                        <span class="kda_img img4">
+                         <img src="../img/ms-2.JPG" onclick="close_img()" >
+               </span>
+        </div>
+              <embed src="../mp3/song4.mp3" autostart="1" loop="1"  hidden="true"> 
+        
+        </body>
+    
+</html>

@@ -1,0 +1,205 @@
+/* html & body */
+html , body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../img/p2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+
+}
+
+
+
+/* top the menubar background & size */
+#topMenuBar ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    border-bottom-style: groove;
+    border-bottom-color: #badbd6;
+    display: flex;
+    justify-content:space-around; 
+}
+/* top li the menubar background & size & text */
+#topMenuBar ul li{
+    float: left;
+    color: white;
+    font-size: 25px;
+    line-height: 45px;
+    cursor: pointer;
+    text-shadow: 0 0 10px white;
+    
+}
+
+/* top the menubar text special effects */
+#topMenuBar ul li:active{
+    color: #f9acac;
+}
+/* top the menubar special effects */
+#topMenuBar ul a:active{
+    color: #f9acac;
+}
+
+
+
+
+/* top the menubar special effects */
+#topMenuBar a {
+    text-decoration: none;   
+    color: white;
+}
+
+/* gameguide size & position & effect */
+#gameGuide{
+    position: absolute;
+    height: 550px;
+    width: 80%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border-style: groove;
+    background:none;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 20px;
+    color: white;
+    overflow: auto;
+    display: none;
+    text-shadow: 0 0 5px yellow;
+}
+/* gameguidle the comment text size */
+#comment{
+    font-size: 25px;
+} 
+
+/* gameguidle the comment img style */
+.image{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: groove;
+    border-bottom-color:#E1E7E4;
+}
+/* gameguidle the comment img style */
+.image span img{
+    cursor: pointer;
+}
+/* gameguidle the comment img display */
+.h1 , .h2 , .h3 , .h4 , .h5{
+    display: none;
+}
+
+
+/* hero position */
+.hero span{
+    position: fixed;
+}
+
+
+/* close onclick position */
+#close{
+    position:relative;
+    cursor: pointer;
+    font-size: 30px;
+    bottom: 0;
+
+}
+/* foooter box the position & background */
+#footer{
+    position: fixed;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top-style: groove;
+    border-top-color: #badbd6;
+}
+
+/* facebook position & size */ 
+#facebook {
+    position: fixed;
+    width: 50px;
+    left: 85%;
+    bottom: 48px;
+        
+}
+
+/* facebook link position*/
+#facebookSapn{
+    position: fixed;
+    left: 89%;
+    bottom:30px;
+}
+
+/* ig position & size */ 
+#instagram{
+    position:relative;
+    width:50px;
+    margin: 40px 0px 40px 120px;
+    left: 11%;
+}
+
+/* ig link position*/
+#instagramSpan{
+    position: fixed;
+    bottom: 45px;
+    left: 67%;
+    
+}
+
+/* remind text position & color */
+#warning{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    color: rgb(107, 81, 52);
+    
+}
+/* 15+ img position */
+#fifteenPlus{
+    position: fixed;
+    left: 30%;
+    bottom: 35px;
+    
+}
+
+/* logoout size & position & effect */
+#logout{
+    position: fixed;
+    left: 10%;
+    bottom:5%;
+    width: 10%;
+    height: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    border-style: groove;
+    text-shadow: 0 0 20px yellow;
+    cursor: pointer;
+    border-color: #3E5151;
+}
+
+/* logoout position & effect */
+#logout:active {
+    color: red;
+    text-shadow: 0 0 20px red;
+    transform: translate(2px,5px);
+}
+
+/* video size & position */
+.video{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}

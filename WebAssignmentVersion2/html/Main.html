@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>MainPage</title>
+    <link rel="stylesheet" type ="text/css" href="../Css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <style type="text/css">
+        
+        </style>
+    </head>
+    <body>
+    
+        <div id="header">
+            
+            <span>
+                <img src="../img/p2.gif">
+            </span>
+            <span id="kda_btn">
+                
+            </span>
+            <!--give people search box -->
+            <div class="search-box">
+             
+               <input class="search-text" type="text"  value="kda" placeholder="KDA.." readonly>
+                <a class="search-btn" href="search.html"><i class="fas fa-search"></i></a>
+    
+            </div>             
+          <!--add logo  -->
+           <div id="logo"><img src="../img/logo.png"></div>
+            
+        </div>
+          
+    
+    
+       <div id="container">
+           <div id="content">
+            <!--Slideshow img -->
+                     <div class="heroimg">
+                        
+                        <img src="../img/hero_b1.jpg" onclick="close_img()"  style="width:80%">
+                        </div>
+                        <div class="heroimg">
+                        
+                        <img src="../img/hero_b2.jpg"  onclick="close_img()" style="width:80%">
+                        </div>
+                        <div class="heroimg">
+                        
+                        <img src="../img/hero_b3.jpg" onclick="close_img()" style="width:80%">
+                        </div>
+                        <div class="heroimg">
+                        
+                        <img src="../img/hero_b4.jpg" onclick="close_img()" style="width:80%">
+                        </div>
+                        <div class="heroimg">
+                        
+                        <img src="../img/hero_b5.jpg" onclick="close_img()" style="width:80%">
+                        </div>
+                        <div class="heroimg">
+                        
+                        <img src="../img/hero_b6.png" onclick="close_img()" style="width:80%">
+                        </div>
+               </div>  
+                       
+                               
+           </div>
+                    
+           <!--img  -->
+        <div id ="right-sidebar" >
+        <div class="s_sidebar">
+        <img src="../img/s2.png" alt=""  >  
+    </div>
+        </div>
+        
+                            
+                           
+                    
+       <!--change color background -->
+        <div id="bottom">
+            <span id=timer></span>
+            <div class="box">
+                <span><img src="../img/p1.jpg" alt="" class="p" onclick="changebg(1)"></span>
+                <span><img src="../img/p2.jpg" alt="" class="p"
+                onclick="changebg(2)"></span>
+                <span><img src="../img/p3.png" alt="" class="p"
+                onclick="changebg(3)"></span>
+                <span><img src="../img/p4.jpg" alt="" class="p" onclick="changebg(4)"></span>
+                <span><img src="../img/p5.jpg" alt="" class="p" onclick="changebg(5)"></span>
+            </div>
+                
+        
+                <span>
+                    <!--hero icon onclick to show img -->
+                    <span class="hero"><img class=demo_hero src="../img/hero1.png" alt="hero1" onclick="show_img(1)" ;>
+                        <!--hero button img -->
+                        <button class="iconbg" type="button"><img src="../img/hero1.png">賽勒斯</button></span>
+                    <span class="hero"><img class=demo_hero src="../img/hero2.png" alt="hero2" onclick="show_img(2)" ;>
+                        <button class="iconbg" type="button"><img src="../img/hero2.png">派克</button></span>
+                    <span class="hero"><img class=demo_hero src="../img/hero3.png" alt="hero3" onclick="show_img(3)" ;>
+                        <button class="iconbg" type="button"><img src="../img/hero3.png">妮可</button></span>
+                    <span class="hero"><img class=demo_hero src="../img/hero4.png" alt="hero4" onclick="show_img(4)" ;>
+                        <button class="iconbg" type="button"><img src="../img/hero4.png">拉克絲</button></span>
+                    <span class="hero"><img class=demo_hero src="../img/hero5.png" alt="hero5"  onclick="show_img(5)";>
+                        <button class="iconbg" type="button"><img src="../img/hero5.png">蓋倫</button></span>
+                    <div class="hero"><img class=demo_hero6 src="../img/hero7.png" alt="hero6"onclick="show_img(6)" ;>
+                        <button class="iconbg" type="button"><img src="../img/hero7.png"></button></div>
+                        
+                        <div class="preview_box"></div>
+                               
+                                
+                    
+                    
+                 <!--nextpage button  -->
+                    <span id =menu><input type="button" value="Next Page" id="nextPage" onclick="nextPage()">menuBar</span>
+                    </span>
+                        </div>    
+                                  
+                   <embed src="../mp3/song1.mp3" autostart="1" loop="1" volume="0" hidden="true"> 
+                        
+            
+     
+    
+    
+    <script type= "text/javascript" src="../Js/mainF.js"></script>
+
+</body>
+</html>
